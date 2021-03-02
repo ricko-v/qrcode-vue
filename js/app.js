@@ -15,6 +15,7 @@ const home = {
   <input v-model="teks" type="text" class="form-control" placeholder="Masukan Teks">
   <small style="float:left" class="text-white mt-2 mb-2">Live Teks : {{ teks }}</small>
  </p>
+<br>
  <canvas hidden id="qr"></canvas>
  <a download="QrCode.jpg" v-bind:href="source">
   <img v-if="lihat" class="img-thumbnail" v-bind:src="source">
