@@ -1,5 +1,5 @@
 const routes = [
-  { path: '/', component: home },
+  { path: '/qrcode-vue', component: home }, //set path '/' if you want
   {
       path: "*",
       redirect: "/"
